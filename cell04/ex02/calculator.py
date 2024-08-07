@@ -22,6 +22,10 @@ def	main() -> None:
 	except ValueError:
 		print("Please enter a valid number.")
 		return
+
+	except ZeroDivisionError:
+		print("You can't divide by zero.")
+		return
 	
 if __name__ == "__main__":
 	main()
