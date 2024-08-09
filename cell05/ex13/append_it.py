@@ -8,7 +8,7 @@ def	main() -> None:
 		return
 
 	for param in sys.argv[1:]:
-		if param.find("ism") == -1:
+		if not param.endswith("ism"):
 			print(param, end="ism")
 			print()
 
