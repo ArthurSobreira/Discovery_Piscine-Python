@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 def	find_the_redheads(family: dict) -> list:
-	return [key.capitalize() for key, value in family.items() \
-		if value == "red"]
+	return [key for key, value in family.items() if value == "red"]
 
 def	main() -> None:
 	dupont_family = {
