@@ -9,11 +9,11 @@ def	main() -> None:
 
 	argument: str = sys.argv[1]
 	user_input: str = input("What was the parameter? ")
-	
+
 	if argument == user_input:
 		print("Good job!")
 	else:
 		print("Nope, sorry...")
- 
+
 if __name__ == "__main__":
 	main()
